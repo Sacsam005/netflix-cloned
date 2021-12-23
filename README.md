@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started to clone Netflix with Create React App
 
 This project was created using <b>ReactJS</b> and <b>CSS3</b>. 
 
