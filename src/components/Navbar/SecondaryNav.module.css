@@ -1,0 +1,9 @@
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  margin-left: 1rem;
+  padding-right: 1rem;
+}
