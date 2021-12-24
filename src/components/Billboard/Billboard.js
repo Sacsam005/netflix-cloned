@@ -13,7 +13,7 @@ export default function Billboard() {
     return (
         <div className={styles.billboard}>
             <div className={styles.innerBillboard}>
-                <img src={witch} alt="Vikings " />
+                <img src={witch} alt="Vikings" className={styles.mainImg} />
                 <div className={styles.fadeOut}></div>
                 <div className={styles.info}>
                     <img src={title} alt="Vikings-title " />
