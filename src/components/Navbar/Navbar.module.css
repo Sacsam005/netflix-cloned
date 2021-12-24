@@ -42,3 +42,39 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.btn-dark {
+  color: white;
+  background-color: black;
+}
+
+.onlyMobile {
+  display: none;
+}
+
+@media (max-width: 680px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    padding-right: 1rem;
+  }
+
+  .onlyMobile {
+    display: block;
+  }
+
+  .navbarList {
+    display: none;
+  }
+
+  ul {
+    padding-left: 0.6rem;
+    margin-top: 1rem;
+  }
+
+  .mainNavbar {
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+}

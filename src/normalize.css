@@ -75,6 +75,12 @@ pre {
 
 a {
   background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 /**
@@ -213,6 +219,9 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
+.btn-dark {
+  background: transparent;
+}
 /**
  * Restore the focus styles unset by the previous rule.
  */
